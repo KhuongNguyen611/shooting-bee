@@ -1,0 +1,41 @@
+{
+  "__version__": "1.0.5",
+  "custom_joint_texture_layouts": [],
+  "general": {
+    "designResolution": {
+      "fitHeight": true
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Ship"
+      },
+      {
+        "index": 2,
+        "name": "Boundary"
+      },
+      {
+        "index": 3,
+        "name": "Bee"
+      },
+      {
+        "index": 4,
+        "name": "Bullet"
+      },
+      {
+        "index": 5,
+        "name": "EnemyBullet"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 44,
+      "2": 50,
+      "3": 18,
+      "4": 12,
+      "5": 6
+    }
+  }
+}
